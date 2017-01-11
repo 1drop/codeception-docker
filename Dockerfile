@@ -5,4 +5,3 @@ RUN composer require -o --prefer-dist -n --no-progress ericmartel/codeception-em
 RUN docker-php-ext-install pdo_mysql
 WORKDIR /project
 
-COPY codeception /project
