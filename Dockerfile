@@ -1,4 +1,4 @@
-FROM codeception/codeception:2.2
+FROM codeception/codeception:3.1.0
 
 WORKDIR /repo
 RUN composer require -o --prefer-dist -n --no-progress ericmartel/codeception-email-mailhog flow/jsonpath
